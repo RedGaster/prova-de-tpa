@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Valor Poupado</title>
+</head>
+
+<body>
+  
+    <div>
+        <h2 class="container">PF3_GustavoPacheco</h2>
+
+        <form method="post" class="form-group">
+            <div class="input">
+                <label for="nome">Nome:</label>
+                <input type="text" class="input-an" id="nome" name="nome" required>
+            </div>
+
+            <div class="input">
+                <label for="nome">Taxa de juros:</label>
+                <input type="number" class="input-an" id="taxajuros" name="txjuros" required>
+            </div>
+
+            <div class="input">
+                <label for="nome">N° de Parcelas:</label>
+                <input type="number" class="input-an" id="parcelas" name="nparcelas" required>
+            </div>
+
+            <div class="input">
+                <label for="nome">Valor da aplicação:</label>
+                <input type="number" class="input-an" id="vmensal" name="rmensal" required>
+            </div>
+
+            <button id="calcular" class="btn" onclick="conta()">Calcular</button>
+
+        </form>
+
+        <div id="resultado" class="resultado">Resultado do Calculo:</div>
+        
+    </div>
+
+  <section>
+    
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
